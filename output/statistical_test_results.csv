@@ -1,0 +1,2 @@
+test,hypothesis,online_successes,online_orders,online_delivery_rate,offline_successes,offline_orders,offline_delivery_rate,difference_online_minus_offline,z_score,p_value,ci_95_low,ci_95_high,alpha,decision
+Two-proportion z-test,Online delivery rate differs from offline delivery rate,25,54,0.46296296296296297,35,84,0.4166666666666667,0.04629629629629628,0.5354259161461196,0.5923553732843141,-0.12341916904478167,0.21601176163737423,0.05,Fail to reject H0

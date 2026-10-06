@@ -1,0 +1,189 @@
+{
+  "totals": {
+    "orders": 138,
+    "deliveredOrders": 60,
+    "failedOrders": 78,
+    "bookedSales": 630195.8599999999,
+    "realizedSales": 320834.33999999997,
+    "deliveryRate": 0.43478260869565216,
+    "failureRate": 0.5652173913043478,
+    "avgOrderValue": 4566.636666666665,
+    "customers": 15
+  },
+  "test": {
+    "rate_a": 0.46296296296296297,
+    "rate_b": 0.4166666666666667,
+    "difference": 0.04629629629629628,
+    "pooled_rate": 0.43478260869565216,
+    "standard_error": 0.0864662970173858,
+    "z_score": 0.5354259161461196,
+    "p_value": 0.5923553732843141,
+    "ci_low": -0.12341916904478167,
+    "ci_high": 0.21601176163737423,
+    "onlineSuccess": 25,
+    "onlineTotal": 54,
+    "offlineSuccess": 35,
+    "offlineTotal": 84,
+    "decision": "Fail to reject H0"
+  },
+  "monthly": [
+    {
+      "order_month": "2025-01",
+      "orders": 34,
+      "realized_sales": 44390.75,
+      "booked_sales": 107425.07
+    },
+    {
+      "order_month": "2025-02",
+      "orders": 22,
+      "realized_sales": 95133.33,
+      "booked_sales": 156916.27
+    },
+    {
+      "order_month": "2025-03",
+      "orders": 18,
+      "realized_sales": 58867.97,
+      "booked_sales": 96600.21
+    },
+    {
+      "order_month": "2025-04",
+      "orders": 15,
+      "realized_sales": 26014.85,
+      "booked_sales": 76790.7
+    },
+    {
+      "order_month": "2025-05",
+      "orders": 20,
+      "realized_sales": 36406.88,
+      "booked_sales": 80724.16
+    },
+    {
+      "order_month": "2025-06",
+      "orders": 29,
+      "realized_sales": 60020.56,
+      "booked_sales": 111739.45
+    }
+  ],
+  "category": [
+    {
+      "product_category": "Home & Kitchen",
+      "orders": 34,
+      "realized_sales": 181891.18,
+      "delivery_rate": 0.5294
+    },
+    {
+      "product_category": "Sports",
+      "orders": 35,
+      "realized_sales": 80132.01,
+      "delivery_rate": 0.4857
+    },
+    {
+      "product_category": "Electronics",
+      "orders": 33,
+      "realized_sales": 41448.25,
+      "delivery_rate": 0.3636
+    },
+    {
+      "product_category": "Stationery",
+      "orders": 36,
+      "realized_sales": 17362.9,
+      "delivery_rate": 0.3611
+    }
+  ],
+  "channel": [
+    {
+      "sales_channel": "Offline",
+      "orders": 84,
+      "delivered": 35,
+      "delivery_rate": 0.4167,
+      "realized_sales": 171277.24
+    },
+    {
+      "sales_channel": "Online",
+      "orders": 54,
+      "delivered": 25,
+      "delivery_rate": 0.463,
+      "realized_sales": 149557.1
+    }
+  ],
+  "segments": [
+    {
+      "segment": "At-Risk / Recovery",
+      "customers": 8,
+      "total_orders": 72,
+      "realized_sales": 130146.17,
+      "avg_order_value": 4483.1266,
+      "avg_delivery_rate": 0.22,
+      "avg_return_cancel_rate": 0.78,
+      "avg_lifetime_value": 85587.65,
+      "sales_share": 0.4056
+    },
+    {
+      "segment": "Champion Customers",
+      "customers": 3,
+      "total_orders": 36,
+      "realized_sales": 129983.88,
+      "avg_order_value": 5574.8553,
+      "avg_delivery_rate": 0.5,
+      "avg_return_cancel_rate": 0.5,
+      "avg_lifetime_value": 259967.76,
+      "sales_share": 0.4051
+    },
+    {
+      "segment": "Loyal Multi-Buyers",
+      "customers": 1,
+      "total_orders": 15,
+      "realized_sales": 34183.59,
+      "avg_order_value": 3375.1713,
+      "avg_delivery_rate": 0.6,
+      "avg_return_cancel_rate": 0.4,
+      "avg_lifetime_value": 205101.54,
+      "sales_share": 0.1065
+    },
+    {
+      "segment": "Growth Prospects",
+      "customers": 3,
+      "total_orders": 15,
+      "realized_sales": 26520.7,
+      "avg_order_value": 5107.9915,
+      "avg_delivery_rate": 0.8462,
+      "avg_return_cancel_rate": 0.1538,
+      "avg_lifetime_value": 32847.6667,
+      "sales_share": 0.0827
+    }
+  ],
+  "riskSegment": {
+    "segment": "At-Risk / Recovery",
+    "customers": 8,
+    "total_orders": 72,
+    "realized_sales": 130146.17,
+    "avg_order_value": 4483.1266,
+    "avg_delivery_rate": 0.22,
+    "avg_return_cancel_rate": 0.78,
+    "avg_lifetime_value": 85587.65,
+    "sales_share": 0.4056
+  },
+  "valueSegment": {
+    "segment": "At-Risk / Recovery",
+    "customers": 8,
+    "total_orders": 72,
+    "realized_sales": 130146.17,
+    "avg_order_value": 4483.1266,
+    "avg_delivery_rate": 0.22,
+    "avg_return_cancel_rate": 0.78,
+    "avg_lifetime_value": 85587.65,
+    "sales_share": 0.4056
+  },
+  "bestMonth": {
+    "order_month": "2025-02",
+    "orders": 22,
+    "realized_sales": 95133.33,
+    "booked_sales": 156916.27
+  },
+  "topCategory": {
+    "product_category": "Home & Kitchen",
+    "orders": 34,
+    "realized_sales": 181891.18,
+    "delivery_rate": 0.5294
+  }
+}
